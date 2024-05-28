@@ -1,4 +1,6 @@
+@import "styles.css";
+
 #main-footer {
+  padding-top: 15px;
   text-align: center;
-  color: plum;
 }

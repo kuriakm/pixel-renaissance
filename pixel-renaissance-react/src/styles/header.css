@@ -1,4 +1,16 @@
-#main-header {
-  text-align: center;
-  color: plum;
+@import "styles.css";
+
+h1 {
+  display: inline;
+  text-align: left;
+  vertical-align: middle;
+}
+
+#logo {
+  background: var(--box-color);
+  border: 1.5px solid var(--text-color);
+  box-shadow: -2.5px 2.5px var(--text-color);
+  padding: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
 }

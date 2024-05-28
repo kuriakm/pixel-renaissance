@@ -1,5 +1,5 @@
 import { Outlet, Link } from "react-router-dom";
-import "../styles/index.css";
+import "../styles/layout.css";
 import Header from "../components/header.js";
 import Footer from "../components/footer.js";
 
@@ -9,19 +9,19 @@ const Layout = () => {
       <Header />
       <nav id="main-nav">
         <ul>
-          <li>
+          <li id="home">
             <Link to="/">Home</Link>
           </li>
-          <li>
+          <li id="about">
             <Link to="/about">About</Link>
           </li>
-          <li>
+          <li id="blog">
             <Link to="/blog">Blog</Link>
           </li>
-          <li>
+          <li id="store">
             <Link to="/store">Store</Link>
           </li>
-          <li>
+          <li id="contact">
             <Link to="/contact">Contact</Link>
           </li>
         </ul>

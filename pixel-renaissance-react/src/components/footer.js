@@ -3,7 +3,7 @@ import "../styles/footer.css";
 const Footer = () => {
   return (
     <footer id="main-footer">
-      <h4>kuriakm</h4>
+      <p>&copy; kuriakm</p>
     </footer>
   );
 };

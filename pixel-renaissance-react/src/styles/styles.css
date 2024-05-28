@@ -1,0 +1,72 @@
+/* Shared Design Elements */
+:root {
+  --primary-color: #ffe066;
+  --secondary-color: #f76f8e;
+  --tertiary-color: #89cbe1;
+  --quaternary-color: #c3d350;
+  --quinary-color: #999999;
+
+  --primary-shade: #fed42c;
+  --secondary-shade: #ec2554;
+  --tertiary-shade: #39a8cd;
+  --quaternary-shade: #a4b716;
+  --quinary-shade: #676767;
+
+  --box-color: #ffffff;
+  --background-color: #ecd7c8;
+  --text-color: #3c3c3c;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", Geneva,
+    Verdana, "Open Sans", sans-serif;
+  background: var(--background-color);
+}
+
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+label {
+  color: var(--text-color);
+}
+
+/* Hide/Show */
+.hide-small,
+.hidden {
+  display: none;
+}
+
+.display {
+  display: block;
+}
+
+/* Media Query */
+@media only screen and (min-width: 920px) {
+  .columns {
+    display: flex;
+  }
+
+  .wrap {
+    flex-wrap: wrap;
+  }
+
+  .one {
+    flex: 1;
+  }
+
+  .two {
+    flex: 2;
+  }
+
+  .three {
+    flex: 3;
+  }
+
+  .four {
+    flex: 4;
+  }
+}
