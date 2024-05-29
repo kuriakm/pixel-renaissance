@@ -13,7 +13,7 @@ import Contact from "./pages/contact.js";
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         {/* 
         -Route marks what needs to be rendered at the path (url)
