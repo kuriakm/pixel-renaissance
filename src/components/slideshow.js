@@ -10,6 +10,9 @@ const Slideshow = () => {
     require.context("../images/slideshow", false, /\.(png|jpe?g|svg)$/)
   );
 
+  /*   const header = [""];
+  const desc = [""];
+ */
   const [index, setIndex] = useState(0);
 
   const slideForward = () => {

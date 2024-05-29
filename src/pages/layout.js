@@ -1,14 +1,32 @@
+import { useState } from "react";
 import { Outlet, Link } from "react-router-dom";
 import "../styles/layout.css";
 import Header from "../components/header.js";
 import Footer from "../components/footer.js";
 
 const Layout = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
   return (
     <>
       <Header />
       <nav id="main-nav">
-        <ul>
+        <div id="toggle-box" onClick={toggleMenu}>
+          <div id="toggle">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+
+        <ul
+          id="nav-items"
+          className={menuOpen ? "columns" : "columns hide-small"}
+        >
           <li id="home">
             <Link to="/">Home</Link>
           </li>
@@ -29,7 +47,6 @@ const Layout = () => {
 
       {/* Outlet displays page links */}
       <Outlet />
-
       <Footer />
     </>
   );
