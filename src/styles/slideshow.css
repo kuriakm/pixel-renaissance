@@ -30,7 +30,7 @@
 .forward {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 225px;
   width: auto;
   margin-top: -22px;
   padding: 16px;
@@ -126,6 +126,7 @@
 /* Images */
 #slideshow img {
   max-width: 100%;
+  min-height: 445px;
   object-fit: cover;
 }
 

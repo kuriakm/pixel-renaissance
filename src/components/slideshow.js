@@ -10,9 +10,19 @@ const Slideshow = () => {
     require.context("../images/slideshow", false, /\.(png|jpe?g|svg)$/)
   );
 
-  /*   const header = [""];
-  const desc = [""];
- */
+  const game = [
+    "Buckshot Roulette",
+    "Portal",
+    "Stardew Valley and Harvest Moon",
+  ];
+
+  const headerCont = [
+    "The Devastating Reality of Gambling Addiction",
+    "Finding Freedom in the Face of Oppression",
+    "Two Farming Games, Two Very Different Experiences",
+  ];
+  /* const desc = [""]; */
+
   const [index, setIndex] = useState(0);
 
   const slideForward = () => {
@@ -29,6 +39,9 @@ const Slideshow = () => {
       <section id="slideshow">
         <div>
           <img src={images[index]} alt={images[index]} />
+          <h4>
+            <em>{game[index]}</em>: {headerCont[index]}
+          </h4>
           <p className="back" onClick={slideBackward}>
             &#10094;
           </p>
