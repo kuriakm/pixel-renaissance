@@ -102,6 +102,10 @@
 }
 
 /* Typography */
+h4 {
+  font-size: 15px;
+}
+
 #slideshow p {
   color: var(--background-color);
   text-decoration: none;
@@ -155,5 +159,9 @@
   .back,
   .forward {
     top: 200px;
+  }
+
+  h4 {
+    font-size: large;
   }
 }

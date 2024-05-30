@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../styles/contact.css";
 import AboutWriter from "../components/about-writer";
+import Socials from "../components/socials";
 
 const Contact = () => {
   const [result, setResult] = useState("");
@@ -36,20 +37,23 @@ const Contact = () => {
           <form onSubmit={onSubmit}>
             <div>
               <label for="txt-name">Name: </label>
-              <input type="text" id="txt-name" />
+              <input type="text" id="txt-name" required minlength={3} />
             </div>
             <div>
               <label for="txt-email">Email: </label>
-              <input type="text" id="txt-email" />
+              <input type="email" id="txt-email" required />
             </div>
             <div>
               <label for="txt-com">Suggestions, Comments, Inquiries: </label>
-              <textarea for="txt-com"></textarea>
+              <textarea for="txt-com" required minLength={5}></textarea>
             </div>
-            <button id="btn-submit">Submit</button>
+            <div id="btn-box">
+              <button id="btn-submit">Submit</button>
+            </div>
           </form>
           <span>{result}</span>
         </section>
+        <Socials />
       </section>
       <AboutWriter />
     </main>

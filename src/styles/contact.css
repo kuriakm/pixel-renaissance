@@ -36,11 +36,13 @@ textarea {
     Verdana, "Open Sans", sans-serif;
 }
 
+#btn-box {
+  text-align: center;
+}
+
 #btn-submit {
-  margin: 15px;
   background-color: var(--secondary-color);
   border: 1px solid var(--secondary-shade);
   border-radius: 10px;
   padding: 5px;
-  text-align: center;
 }
