@@ -1,0 +1,46 @@
+@import "styles.css";
+
+#contact-page {
+  background: var(--box-color);
+  border: 1.5px solid var(--text-color);
+  box-shadow: -2.5px 2.5px var(--text-color);
+  padding: 40px;
+  padding-top: 20px;
+  padding-right: 50px;
+  margin: 10px;
+  margin-bottom: 15px;
+  max-width: 100%;
+}
+
+#contact-page label {
+  display: block;
+  overflow: hidden;
+}
+
+#txt-name,
+#txt-email,
+#txt-com,
+textarea {
+  margin-bottom: 20px;
+  position: relative;
+  width: 100%;
+  border: 1px solid var(--text-color);
+}
+
+textarea {
+  padding-bottom: 200px;
+  resize: none;
+  overflow: hidden;
+  font-size: 14px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", Geneva,
+    Verdana, "Open Sans", sans-serif;
+}
+
+#btn-submit {
+  margin: 15px;
+  background-color: var(--secondary-color);
+  border: 1px solid var(--secondary-shade);
+  border-radius: 10px;
+  padding: 5px;
+  text-align: center;
+}

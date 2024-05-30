@@ -1,0 +1,72 @@
+@import "styles.css";
+
+#blog-page {
+  background: var(--box-color);
+  border: 1.5px solid var(--text-color);
+  box-shadow: -2.5px 2.5px var(--text-color);
+  padding: 40px;
+  padding-top: 20px;
+  margin: 10px;
+  margin-bottom: 15px;
+  max-width: 100%;
+}
+
+#posts {
+  height: auto;
+  overflow: auto;
+  width: 100%;
+  position: relative;
+  color: var(--text-color);
+}
+
+#posts section {
+  margin-bottom: 20px;
+}
+
+.post-content {
+  padding: 10px;
+  border: 1px solid var(--text-color);
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.post-content:first-child {
+  margin-top: 0px;
+}
+
+.post-content:last-child {
+  margin-bottom: 0px;
+}
+
+/* Images */
+#posts img {
+  width: 100%;
+  object-fit: fill;
+}
+
+/* Typography */
+#posts a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+/* Media Query */
+@media only screen and (min-width: 1310px) {
+  #posts {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 680px;
+  }
+
+  .post-text {
+    font-size: large;
+    bottom: 45px;
+    left: 50px;
+    font-size: large;
+    margin-right: 100px;
+  }
+
+  #posts img {
+    width: 1000px;
+  }
+}

@@ -23,6 +23,11 @@ body {
   background: var(--background-color);
 }
 
+/* Content Area */
+#information {
+  margin: 0 auto;
+}
+
 /* Typography */
 h1,
 h2,
@@ -45,7 +50,7 @@ label {
 }
 
 /* Media Query */
-@media only screen and (min-width: 920px) {
+@media only screen and (min-width: 1310px) {
   .columns {
     display: flex;
   }
@@ -68,5 +73,9 @@ label {
 
   .four {
     flex: 4;
+  }
+
+  #information {
+    margin-right: 15px;
   }
 }

@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { Outlet, Link } from "react-router-dom";
 import "../styles/layout.css";
-import Header from "../components/header.js";
-import Footer from "../components/footer.js";
+import Header from "../components/header";
+import Footer from "../components/footer";
 
 const Layout = () => {
   const [menuOpen, setMenuOpen] = useState(false);

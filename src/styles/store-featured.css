@@ -1,0 +1,35 @@
+@import "styles.css";
+
+/* Store Featured Box */
+#store-featured {
+  margin-top: 20px;
+}
+
+#store-items {
+  background: var(--box-color);
+  border: 1.5px solid var(--text-color);
+  box-shadow: -2.5px 2.5px var(--text-color);
+  padding: 20px 10px 5px 10px;
+  margin: 10px;
+  margin-bottom: 15px;
+  max-width: 100%;
+  position: relative;
+  text-align: center;
+  display: block;
+}
+
+#store-items:last-child {
+  margin-bottom: 15px;
+}
+
+#store-items a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+#store-items img {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  object-fit: cover;
+}

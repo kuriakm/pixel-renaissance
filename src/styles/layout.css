@@ -91,7 +91,7 @@
   display: none;
 }
 
-@media only screen and (min-width: 920px) {
+@media only screen and (min-width: 1310px) {
   #toggle-box,
   #toggle {
     display: none;
