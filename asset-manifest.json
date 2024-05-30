@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/pixel-renaissance-react/static/css/main.20194470.css",
+    "main.css": "/pixel-renaissance-react/static/css/main.72c3c4b8.css",
     "main.js": "/pixel-renaissance-react/static/js/main.a735b4b1.js",
     "static/media/sticker-lg.png": "/pixel-renaissance-react/static/media/sticker-lg.066b5f0265ede374e00f.png",
     "static/media/logo-color.png": "/pixel-renaissance-react/static/media/logo-color.4b322c1661e714a1aad1.png",
@@ -13,11 +13,11 @@
     "static/media/instagram.svg": "/pixel-renaissance-react/static/media/instagram.fad01b69ec584ef2699e40a358fb0271.svg",
     "static/media/mastodon.svg": "/pixel-renaissance-react/static/media/mastodon.d7059a354ade0ea4b00e5f688f5bf5c9.svg",
     "index.html": "/pixel-renaissance-react/index.html",
-    "main.20194470.css.map": "/pixel-renaissance-react/static/css/main.20194470.css.map",
+    "main.72c3c4b8.css.map": "/pixel-renaissance-react/static/css/main.72c3c4b8.css.map",
     "main.a735b4b1.js.map": "/pixel-renaissance-react/static/js/main.a735b4b1.js.map"
   },
   "entrypoints": [
-    "static/css/main.20194470.css",
+    "static/css/main.72c3c4b8.css",
     "static/js/main.a735b4b1.js"
   ]
 }
