@@ -18,7 +18,7 @@ const Blog = () => {
 
   return (
     <main id="main-content" className="columns">
-      <section id="information" className="three">
+      <section id="information" className="four">
         <section id="blog-page">
           <h2>Blog Posts</h2>
           <section id="posts">

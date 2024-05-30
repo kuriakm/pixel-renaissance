@@ -4,7 +4,7 @@ import "../styles/about.css";
 const About = () => {
   return (
     <main id="main-content" className="columns">
-      <section id="information" className="three">
+      <section id="information" className="four">
         <section id="about-page">
           <h2>About Pixel Renaissance</h2>
           <p>

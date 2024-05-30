@@ -5,7 +5,7 @@ import "../styles/styles.css";
 const Home = () => {
   return (
     <main id="main-content" className="columns">
-      <section id="information" className="three">
+      <section id="information" className="four">
         <Slideshow />
         <StoreFeatured />
       </section>
