@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/pixel-renaissance-react/static/css/main.899d4fef.css",
-    "main.js": "/pixel-renaissance-react/static/js/main.1243b652.js",
+    "main.js": "/pixel-renaissance-react/static/js/main.a735b4b1.js",
     "static/media/sticker-lg.png": "/pixel-renaissance-react/static/media/sticker-lg.066b5f0265ede374e00f.png",
     "static/media/logo-color.png": "/pixel-renaissance-react/static/media/logo-color.4b322c1661e714a1aad1.png",
     "static/media/pin-thumb.png": "/pixel-renaissance-react/static/media/pin-thumb.fbab328719a5b579a490.png",
@@ -14,10 +14,10 @@
     "static/media/mastodon.svg": "/pixel-renaissance-react/static/media/mastodon.d7059a354ade0ea4b00e5f688f5bf5c9.svg",
     "index.html": "/pixel-renaissance-react/index.html",
     "main.899d4fef.css.map": "/pixel-renaissance-react/static/css/main.899d4fef.css.map",
-    "main.1243b652.js.map": "/pixel-renaissance-react/static/js/main.1243b652.js.map"
+    "main.a735b4b1.js.map": "/pixel-renaissance-react/static/js/main.a735b4b1.js.map"
   },
   "entrypoints": [
     "static/css/main.899d4fef.css",
-    "static/js/main.1243b652.js"
+    "static/js/main.a735b4b1.js"
   ]
 }
