@@ -6,7 +6,7 @@ const Socials = () => {
   return (
     <section id="contact-social">
       <h2>Social Media</h2>
-      <div id="social-media" className="columns wrap one">
+      <div id="social-media" className="columns wrap three">
         <img src={mastodon} alt="Mastodon icon" />
         <img src={instagram} alt="Instagram icon" />
       </div>

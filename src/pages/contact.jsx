@@ -31,7 +31,7 @@ const Contact = () => {
 
   return (
     <main id="main-content" className="columns">
-      <section id="information" class="three">
+      <section id="information" class="four">
         <section id="contact-page">
           <h2>Contact</h2>
           <form onSubmit={onSubmit}>
