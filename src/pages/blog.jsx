@@ -32,8 +32,8 @@ const Blog = () => {
             ))}
           </section>
         </section>
-        <AboutWriter />
       </section>
+      <AboutWriter />
     </main>
   );
 };

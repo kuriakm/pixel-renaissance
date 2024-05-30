@@ -38,6 +38,10 @@
   margin-bottom: 0px;
 }
 
+#about-writer-box {
+  height: auto;
+}
+
 /* Images */
 #posts img {
   width: 100%;
@@ -67,6 +71,6 @@
   }
 
   #posts img {
-    width: 1000px;
+    max-width: 100%;
   }
 }
