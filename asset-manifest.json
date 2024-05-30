@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/pixel-renaissance/static/css/main.ab21037a.css",
+    "main.js": "/pixel-renaissance/static/js/main.64ae8eb8.js",
+    "static/media/sticker-lg.png": "/pixel-renaissance/static/media/sticker-lg.066b5f0265ede374e00f.png",
+    "static/media/logo-color.png": "/pixel-renaissance/static/media/logo-color.4b322c1661e714a1aad1.png",
+    "static/media/pin-thumb.png": "/pixel-renaissance/static/media/pin-thumb.fbab328719a5b579a490.png",
+    "static/media/stardew-valley-harvest-moon-thumb.jpg": "/pixel-renaissance/static/media/stardew-valley-harvest-moon-thumb.2de8e34f5126d72c73d0.jpg",
+    "static/media/buckshot-thumb.jpg": "/pixel-renaissance/static/media/buckshot-thumb.a0aeddfb7678e447d356.jpg",
+    "static/media/mug-thumb.png": "/pixel-renaissance/static/media/mug-thumb.c2a1d4dca53ea65256b2.png",
+    "static/media/portal-thumb.jpg": "/pixel-renaissance/static/media/portal-thumb.30786aea8c3bb8c7e1a0.jpg",
+    "static/media/about-writer.jpg": "/pixel-renaissance/static/media/about-writer.92eac282754d7f2dde9a.jpg",
+    "index.html": "/pixel-renaissance/index.html",
+    "main.ab21037a.css.map": "/pixel-renaissance/static/css/main.ab21037a.css.map",
+    "main.64ae8eb8.js.map": "/pixel-renaissance/static/js/main.64ae8eb8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab21037a.css",
+    "static/js/main.64ae8eb8.js"
+  ]
+}
