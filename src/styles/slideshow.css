@@ -152,7 +152,6 @@ h4 {
 
 @media only screen and (min-width: 1310px) {
   #slideshow img {
-    width: 1000px;
     height: 500px;
     object-fit: cover;
   }

@@ -31,21 +31,23 @@ const Contact = () => {
 
   return (
     <main id="main-content" className="columns">
-      <section id="information" class="four">
+      <section id="information" className="four">
         <section id="contact-page">
           <h2>Contact</h2>
           <form onSubmit={onSubmit}>
             <div>
-              <label for="txt-name">Name: </label>
-              <input type="text" id="txt-name" required minlength={3} />
+              <label htmlFor="txt-name">Name: </label>
+              <input type="text" id="txt-name" required minLength={3} />
             </div>
             <div>
-              <label for="txt-email">Email: </label>
+              <label htmlFor="txt-email">Email: </label>
               <input type="email" id="txt-email" required />
             </div>
             <div>
-              <label for="txt-com">Suggestions, Comments, Inquiries: </label>
-              <textarea for="txt-com" required minLength={5}></textarea>
+              <label htmlFor="txt-com">
+                Suggestions, Comments, Inquiries:{" "}
+              </label>
+              <textarea htmlFor="txt-com" required minLength={5}></textarea>
             </div>
             <div id="btn-box">
               <button id="btn-submit">Submit</button>
