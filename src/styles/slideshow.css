@@ -107,7 +107,7 @@ h4 {
 }
 
 #slideshow p {
-  color: var(--background-color);
+  color: var(--text-color);
   text-decoration: none;
 }
 

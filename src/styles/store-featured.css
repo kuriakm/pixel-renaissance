@@ -22,14 +22,28 @@
   margin-bottom: 15px;
 }
 
-#store-items a {
-  color: var(--text-color);
-  text-decoration: none;
+#btn-box {
+  text-align: center;
+  padding: 15px;
 }
 
+#btn-add {
+  background-color: var(--tertiary-color);
+  border: 1px solid var(--tertiary-shade);
+  border-radius: 10px;
+  padding: 5px;
+}
+
+/* Images */
 #store-items img {
   width: 200px;
   height: 200px;
   position: relative;
   object-fit: cover;
+}
+
+/* Typography */
+#store-items a {
+  color: var(--text-color);
+  text-decoration: none;
 }

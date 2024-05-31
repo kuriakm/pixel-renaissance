@@ -21,7 +21,11 @@ const Slideshow = () => {
     "Finding Freedom in the Face of Oppression",
     "Two Farming Games, Two Very Different Experiences",
   ];
-  /* const desc = [""]; */
+  const desc = [
+    "How a simple horror game beautifully depicts the painful journey of falling too deep into a gambling addiction.",
+    "How Portal's art style and game mechanics captures the struggle between humanity and the relentless forces that seek to constrain it.",
+    "How Stardew Valley's pixel art creates a unique gaming experience compared to its counterparts.",
+  ];
 
   const [index, setIndex] = useState(0);
 
@@ -42,6 +46,7 @@ const Slideshow = () => {
           <h4>
             <em>{game[index]}</em>: {headerCont[index]}
           </h4>
+          <p>{desc[index]}</p>
           <p className="back" onClick={slideBackward}>
             &#10094;
           </p>
