@@ -9,6 +9,7 @@ import About from "./pages/about";
 import Store from "./pages/store";
 import Contact from "./pages/contact";
 import Stickers from "./pages/stickers";
+import Post from "./pages/post";
 
 export default function App() {
   return (
@@ -23,6 +24,8 @@ export default function App() {
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="blog" element={<Blog />} />
+          {/* :seo passes post SEO to Post page*/}
+          <Route exact path="blog/:seo" element={<Post />} />
           <Route path="store" element={<Store />} />
           <Route path="stickers" element={<Stickers />} />
           <Route path="contact" element={<Contact />} />

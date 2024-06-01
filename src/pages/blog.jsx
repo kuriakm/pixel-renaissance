@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import BlogPost from "../components/blog-post";
+import BlogPost from "../components/blogpost-view";
 import AboutWriter from "../components/about-writer";
 import "../styles/blog.css";
 
@@ -24,6 +24,7 @@ const Blog = () => {
             {blogPosts.map((blogPost) => (
               <BlogPost
                 key={blogPost.seo}
+                seo={blogPost.seo}
                 game={blogPost.game}
                 thumbnail={blogPost.thumbnail}
                 headline={blogPost.headline}

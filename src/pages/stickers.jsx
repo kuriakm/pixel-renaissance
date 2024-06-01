@@ -5,6 +5,7 @@ import stickerLg from "../images/store/sticker-lg.png";
 import "../styles/stickers.css";
 import ReviewBox from "../components/reviewbox";
 
+/* TODO: Change this to be a general StoreItem page that pulls item name from path to populate page*/
 const Stickers = () => {
   return (
     <main id="main-content" className="columns">
