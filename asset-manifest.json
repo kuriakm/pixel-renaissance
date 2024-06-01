@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/pixel-renaissance/static/css/main.3e6d13f1.css",
-    "main.js": "/pixel-renaissance/static/js/main.490f4063.js",
+    "main.css": "/pixel-renaissance/static/css/main.ff6203b3.css",
+    "main.js": "/pixel-renaissance/static/js/main.83d47de1.js",
+    "static/media/sticker-thumb.png": "/pixel-renaissance/static/media/sticker-thumb.212555b944b3b64ac490.png",
     "static/media/sticker-lg.png": "/pixel-renaissance/static/media/sticker-lg.066b5f0265ede374e00f.png",
     "static/media/logo-color.png": "/pixel-renaissance/static/media/logo-color.4b322c1661e714a1aad1.png",
     "static/media/pin-thumb.png": "/pixel-renaissance/static/media/pin-thumb.fbab328719a5b579a490.png",
+    "static/media/sticker-med.png": "/pixel-renaissance/static/media/sticker-med.3e5dfdf512ae98346fd8.png",
     "static/media/stardew-valley-harvest-moon-thumb.jpg": "/pixel-renaissance/static/media/stardew-valley-harvest-moon-thumb.2de8e34f5126d72c73d0.jpg",
     "static/media/buckshot-thumb.jpg": "/pixel-renaissance/static/media/buckshot-thumb.a0aeddfb7678e447d356.jpg",
+    "static/media/sticker-sm.png": "/pixel-renaissance/static/media/sticker-sm.29de79c610922ec68b23.png",
     "static/media/mug-thumb.png": "/pixel-renaissance/static/media/mug-thumb.c2a1d4dca53ea65256b2.png",
     "static/media/portal-thumb.jpg": "/pixel-renaissance/static/media/portal-thumb.30786aea8c3bb8c7e1a0.jpg",
     "static/media/about-writer.jpg": "/pixel-renaissance/static/media/about-writer.92eac282754d7f2dde9a.jpg",
     "static/media/instagram.svg": "/pixel-renaissance/static/media/instagram.fad01b69ec584ef2699e40a358fb0271.svg",
     "static/media/mastodon.svg": "/pixel-renaissance/static/media/mastodon.d7059a354ade0ea4b00e5f688f5bf5c9.svg",
     "index.html": "/pixel-renaissance/index.html",
-    "main.3e6d13f1.css.map": "/pixel-renaissance/static/css/main.3e6d13f1.css.map",
-    "main.490f4063.js.map": "/pixel-renaissance/static/js/main.490f4063.js.map"
+    "main.ff6203b3.css.map": "/pixel-renaissance/static/css/main.ff6203b3.css.map",
+    "main.83d47de1.js.map": "/pixel-renaissance/static/js/main.83d47de1.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e6d13f1.css",
-    "static/js/main.490f4063.js"
+    "static/css/main.ff6203b3.css",
+    "static/js/main.83d47de1.js"
   ]
 }
