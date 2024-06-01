@@ -1,13 +1,14 @@
 import { useParams } from "react-router-dom";
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import "../styles/post.css";
 
 const Post = () => {
   const [blogPosts, setBlogPosts] = useState([]);
   useEffect(() => {
     (async () => {
       const response = await axios.get(
-        "https://kuriakm.github.io/json/post-react.json"
+        "https://kuriakm.github.io/json/post.json"
       );
       setBlogPosts(response.data);
     })();
@@ -26,19 +27,38 @@ const Post = () => {
 
   const post = findSeo(blogPosts);
 
-  const getGames = (games) => {
+  const getHeadline = (games, headline) => {
     if (games.length === 2) {
-      return games[0] + " and " + games[1];
+      return (
+        <h2>
+          <em>{games[0]}</em> and <em>{games[1]}</em>: {headline}
+        </h2>
+      );
     }
-    return games;
+    return (
+      <h2>
+        <em>{games}</em>: {headline}
+      </h2>
+    );
   };
+
+  const getAttribute = (imageCredit) => {};
 
   /* Return post content */
   if (post != null) {
     return (
-      <h2>
-        {getGames(post.game)}: {post.headline}
-      </h2>
+      <main id="main-content" className="columns">
+        <section id="information" className="three">
+          <section id="blog-post">
+            <section>
+              {getHeadline(post.game, post.headline)}
+              <h4>{post.date}</h4>
+              <p>{post.subtitle}</p>
+            </section>
+            <section id="posts"></section>
+          </section>
+        </section>
+      </main>
     );
   }
 };

@@ -2,13 +2,21 @@ import { Link } from "react-router-dom";
 import "../styles/blog.css";
 
 const BlogPost = (blogPost) => {
-  const imageSrc = `https://kuriakm.github.io/json/posts/${blogPost.thumbnail.name}`;
+  const imageSrc = `../images/posts/${blogPost.seo}/${blogPost.thumbnail.name}`;
 
-  const getGames = (games) => {
+  const getHeadline = (games, headline) => {
     if (games.length === 2) {
-      return games[0] + " and " + games[1];
+      return (
+        <h4>
+          <em>{games[0]}</em> and <em>{games[1]}</em>: {headline}
+        </h4>
+      );
     }
-    return games;
+    return (
+      <h4>
+        <em>{games}</em>: {headline}
+      </h4>
+    );
   };
 
   return (
@@ -17,9 +25,7 @@ const BlogPost = (blogPost) => {
       <section className="post-content">
         <img src={imageSrc} alt={blogPost.thumbnail.alt} />
         <div className="post-text">
-          <h4>
-            {getGames(blogPost.game)}: {blogPost.headline}
-          </h4>
+          {getHeadline(blogPost.game, blogPost.headline)}
         </div>
       </section>
     </Link>

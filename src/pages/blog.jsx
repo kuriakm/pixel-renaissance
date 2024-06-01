@@ -9,7 +9,7 @@ const Blog = () => {
   useEffect(() => {
     (async () => {
       const response = await axios.get(
-        "https://kuriakm.github.io/json/post-react.json"
+        "https://kuriakm.github.io/json/post.json"
       );
       setBlogPosts(response.data);
     })();

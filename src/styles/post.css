@@ -1,0 +1,39 @@
+@import "styles.css";
+@import "blog.css";
+
+#blog-post {
+  background: var(--box-color);
+  border: 1.5px solid var(--text-color);
+  box-shadow: -2.5px 2.5px var(--text-color);
+  padding: 40px;
+  padding-top: 20px;
+  max-width: 100%;
+  margin: 10px;
+  margin-bottom: 15px;
+}
+
+#blog-post #posts {
+  height: auto;
+  overflow: auto;
+  width: 100%;
+}
+
+#blog-post #posts img {
+  width: 1000px;
+  object-fit: fill;
+}
+
+#posts img {
+  max-width: 100%;
+}
+
+/* Media Query */
+@media only screen and (min-width: 1310px) {
+  #blog-post #posts {
+    overflow-y: scroll;
+  }
+
+  #blog-post #posts {
+    height: 680px;
+  }
+}
