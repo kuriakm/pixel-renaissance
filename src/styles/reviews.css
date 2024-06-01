@@ -9,3 +9,17 @@
   margin-bottom: 15px;
   text-align: center;
 }
+
+.reviews {
+  text-align: left;
+  padding: 10px 5px;
+  border-bottom: 1px solid var(--text-color);
+}
+
+.review-head {
+  display: inline;
+}
+
+.rating {
+  text-align: right;
+}

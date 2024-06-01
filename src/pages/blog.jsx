@@ -12,7 +12,6 @@ const Blog = () => {
         "https://kuriakm.github.io/json/post-react.json"
       );
       setBlogPosts(response.data);
-      console.log(response.data);
     })();
   }, []);
 
