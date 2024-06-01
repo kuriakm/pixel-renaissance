@@ -17,10 +17,10 @@ const ReviewBox = () => {
 
   return (
     <aside id="review-box" className="one">
-      {allProducts.map((product) => {
+      {allProducts.map((product, index) => {
         if (product.item === "stickers") {
           return (
-            <div key={product.item}>
+            <div key={`${product.item}${index}`}>
               {product.reviews.map((review) => {
                 console.log(review);
                 return (

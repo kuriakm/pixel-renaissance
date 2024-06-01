@@ -18,13 +18,20 @@
   width: 100%;
 }
 
-#blog-post #posts img {
-  width: 1000px;
-  object-fit: fill;
+/* Attribute */
+.attribute {
+  font-size: smaller;
 }
 
+.attribute a {
+  color: var(--tertiary-shade);
+  text-decoration: none;
+}
+
+/* Images */
 #posts img {
   max-width: 100%;
+  object-fit: cover;
 }
 
 /* Media Query */
@@ -35,5 +42,8 @@
 
   #blog-post #posts {
     height: 680px;
+  }
+  #blog-post #posts img {
+    width: 1000px;
   }
 }
