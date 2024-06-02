@@ -37,17 +37,33 @@ const Contact = () => {
           <form onSubmit={onSubmit}>
             <div>
               <label htmlFor="txt-name">Name: </label>
-              <input type="text" id="txt-name" required minLength={3} />
+              <input
+                type="text"
+                id="txt-name"
+                placeholder="Enter your first and last name"
+                required
+                minLength={3}
+              />
             </div>
             <div>
               <label htmlFor="txt-email">Email: </label>
-              <input type="email" id="txt-email" required />
+              <input
+                type="email"
+                id="txt-email"
+                placeholder="Enter your email"
+                required
+              />
             </div>
             <div>
               <label htmlFor="txt-com">
                 Suggestions, Comments, Inquiries:{" "}
               </label>
-              <textarea htmlFor="txt-com" required minLength={5}></textarea>
+              <textarea
+                htmlFor="txt-com"
+                placeholder="Enter your suggestions, comments, and/or, inquiries"
+                required
+                minLength={5}
+              ></textarea>
             </div>
             <div id="btn-box">
               <button id="btn-submit">Submit</button>

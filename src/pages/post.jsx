@@ -50,7 +50,7 @@ const Post = () => {
 
     return (
       <main id="main-content" className="columns">
-        <section id="information" className="three">
+        <section id="information" className="four">
           <section id="blog-post">
             <section>
               {getHeadline(post.game, post.headline)}

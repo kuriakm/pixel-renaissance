@@ -22,7 +22,6 @@ const ReviewBox = () => {
           return (
             <div key={`${product.item}${index}`}>
               {product.reviews.map((review) => {
-                console.log(review);
                 return (
                   <Review
                     key={review.reviewer}

@@ -37,6 +37,18 @@ const Stickers = () => {
               />
             </section>
           </section>
+          <h3>$5.99</h3>
+          <h4>Logo by Marshall Kuriakose</h4>
+          <p>
+            These cute stickers are great to put on water bottles, laptops, and
+            phone cases! We used vinyl plastic to create waterproof stickers
+            that can endure repeated use.
+          </p>
+          <p>
+            These sticker packs come with 30 total stickers (10 large, 10
+            medium, and 10 small sized stickers).
+          </p>
+          <button id="btn-add">Add to Cart</button>
         </section>
       </section>
       <ReviewBox />
