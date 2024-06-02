@@ -20,6 +20,17 @@ const Blog = () => {
       <section id="information" className="four">
         <section id="blog-page">
           <h2>Blog Posts</h2>
+          <div id="button-box">
+            <div id="blog-sort-menu">
+              <select name="blog-dropdown">
+                <option value="" selected>
+                  Sort By Date
+                </option>
+                <option value="oldest">Oldest</option>
+                <option value="newest">Newest</option>
+              </select>
+            </div>
+          </div>
           <section id="posts">
             {blogPosts.map((blogPost) => (
               <BlogPost

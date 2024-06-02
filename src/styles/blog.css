@@ -42,6 +42,21 @@
   height: auto;
 }
 
+/* Dropdown Menu */
+#button-box {
+  text-align: right;
+  padding-bottom: 20px;
+}
+
+#blog-sort-menu {
+  display: inline-flex;
+  font-size: small;
+}
+
+select {
+  padding: 10px;
+}
+
 /* Images */
 #posts img {
   width: 100%;
