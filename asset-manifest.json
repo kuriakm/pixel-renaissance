@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/pixel-renaissance/static/css/main.b0e53ef4.css",
-    "main.js": "/pixel-renaissance/static/js/main.91b2d507.js",
+    "main.css": "/pixel-renaissance/static/css/main.8e9aa1ab.css",
+    "main.js": "/pixel-renaissance/static/js/main.62c7b187.js",
     "static/media/sticker-thumb.png": "/pixel-renaissance/static/media/sticker-thumb.212555b944b3b64ac490.png",
     "static/media/sticker-lg.png": "/pixel-renaissance/static/media/sticker-lg.066b5f0265ede374e00f.png",
     "static/media/logo-color.png": "/pixel-renaissance/static/media/logo-color.4b322c1661e714a1aad1.png",
@@ -16,11 +16,11 @@
     "static/media/instagram.svg": "/pixel-renaissance/static/media/instagram.fad01b69ec584ef2699e40a358fb0271.svg",
     "static/media/mastodon.svg": "/pixel-renaissance/static/media/mastodon.d7059a354ade0ea4b00e5f688f5bf5c9.svg",
     "index.html": "/pixel-renaissance/index.html",
-    "main.b0e53ef4.css.map": "/pixel-renaissance/static/css/main.b0e53ef4.css.map",
-    "main.91b2d507.js.map": "/pixel-renaissance/static/js/main.91b2d507.js.map"
+    "main.8e9aa1ab.css.map": "/pixel-renaissance/static/css/main.8e9aa1ab.css.map",
+    "main.62c7b187.js.map": "/pixel-renaissance/static/js/main.62c7b187.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0e53ef4.css",
-    "static/js/main.91b2d507.js"
+    "static/css/main.8e9aa1ab.css",
+    "static/js/main.62c7b187.js"
   ]
 }
