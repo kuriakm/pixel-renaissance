@@ -3,7 +3,7 @@ import Attribute from "./attribute";
 const PostContent = (content) => {
   /* If there is an image, append it after content line */
   if (Object.keys(content.image).length !== 0) {
-    const imageSrc = `https://kuriakm.github.io/json/posts/${content.folderpath}/${content.image.name}`;
+    const imageSrc = `https://kuriakm.github.io/json/posts/${content.image.name}`;
     return (
       <div>
         <p>{content.line}</p>

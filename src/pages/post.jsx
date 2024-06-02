@@ -46,7 +46,7 @@ const Post = () => {
       );
     };
 
-    const thumbnail = `https://kuriakm.github.io/json/posts/${post.seo}/${post.thumbnail.name}`;
+    const thumbnail = `https://kuriakm.github.io/json/posts/${post.thumbnail.name}`;
 
     return (
       <main id="main-content" className="columns">
@@ -76,7 +76,6 @@ const Post = () => {
                   key={index}
                   line={content.line}
                   image={content.image}
-                  folderpath={content.folderpath}
                 />
               ))}
             </section>
