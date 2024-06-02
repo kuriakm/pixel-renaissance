@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "../styles/slideshow.css";
+import { Link } from "react-router-dom";
 
 const Slideshow = () => {
   function importAll(r) {
@@ -27,6 +28,12 @@ const Slideshow = () => {
     "How Stardew Valley's pixel art creates a unique gaming experience compared to its counterparts.",
   ];
 
+  const links = [
+    "blog/buckshot-roulette",
+    "blog/portal",
+    "blog/stardew-valley-harvest-moon",
+  ];
+
   const [index, setIndex] = useState(0);
 
   const slideForward = () => {
@@ -42,11 +49,13 @@ const Slideshow = () => {
       <h2>Featured Posts</h2>
       <section id="slideshow">
         <div>
-          <img src={images[index]} alt={images[index]} />
-          <h4>
-            <em>{game[index]}</em>: {headerCont[index]}
-          </h4>
-          <p>{desc[index]}</p>
+          <Link to={links[index]}>
+            <img src={images[index]} alt={images[index]} />
+            <h4>
+              <em>{game[index]}</em>: {headerCont[index]}
+            </h4>
+            <p>{desc[index]}</p>
+          </Link>
           <p className="back" onClick={slideBackward}>
             &#10094;
           </p>
