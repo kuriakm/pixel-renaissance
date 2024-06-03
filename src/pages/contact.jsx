@@ -39,6 +39,7 @@ const Contact = () => {
               <label htmlFor="txt-name">Name: </label>
               <input
                 type="text"
+                name="name"
                 id="txt-name"
                 placeholder="Enter your first and last name"
                 required
@@ -49,6 +50,7 @@ const Contact = () => {
               <label htmlFor="txt-email">Email: </label>
               <input
                 type="email"
+                name="email"
                 id="txt-email"
                 placeholder="Enter your email"
                 required
@@ -59,7 +61,8 @@ const Contact = () => {
                 Suggestions, Comments, Inquiries:{" "}
               </label>
               <textarea
-                htmlFor="txt-com"
+                name="message"
+                id="txt-com"
                 placeholder="Enter your suggestions, comments, and/or, inquiries"
                 required
                 minLength={5}
