@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import "../styles/blog.css";
 
 const BlogPost = (blogPost) => {
-  const imageSrc = `https://kuriakm.github.io/json/posts/${blogPost.thumbnail.name}`;
+  const imageSrc = `https://pixel-renaissance-server.onrender.com/images/posts/${blogPost.thumbnail.name}`;
 
   const getHeadline = (games, headline) => {
     if (games.length === 2) {
