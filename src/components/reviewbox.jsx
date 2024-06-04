@@ -9,7 +9,7 @@ const ReviewBox = () => {
   useEffect(() => {
     (async () => {
       const response = await axios.get(
-        "https://kuriakm.github.io/json/store-items.json"
+        "https://pixel-renaissance-server.onrender.com/api/reviews"
       );
       setAllProducts(response.data);
     })();
