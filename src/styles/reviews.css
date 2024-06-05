@@ -10,6 +10,11 @@
   text-align: center;
 }
 
+#review-container {
+  height: 575px;
+  overflow-y: scroll;
+}
+
 .reviews {
   text-align: left;
   padding: 10px 5px;
@@ -20,6 +25,24 @@
   display: inline;
 }
 
+#review-info {
+  position: relative;
+}
+
+#edit {
+  position: absolute;
+  color: var(--text-color);
+  font-size: 20px;
+}
+#remove {
+  position: absolute;
+  color: var(--text-color);
+  left: 40px;
+  font-size: 20px;
+}
+
 .rating {
+  position: relative;
   text-align: right;
+  bottom: -5px;
 }
