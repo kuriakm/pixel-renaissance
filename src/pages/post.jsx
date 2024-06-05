@@ -11,7 +11,7 @@ const Post = () => {
   useEffect(() => {
     (async () => {
       const response = await axios.get(
-        "https://pixel-renaissance-server.onrender.com/images/posts/"
+        "https://pixel-renaissance-server.onrender.com/api/posts/"
       );
       setBlogPosts(response.data);
     })();

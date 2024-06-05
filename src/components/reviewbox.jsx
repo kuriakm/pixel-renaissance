@@ -25,7 +25,8 @@ const ReviewBox = () => {
           if (review.item === "stickers") {
             return (
               <Review
-                key={review.reviewer}
+                key={review._id}
+                _id={review._id}
                 reviewer={review.reviewer}
                 content={review.content}
                 rating={review.rating}

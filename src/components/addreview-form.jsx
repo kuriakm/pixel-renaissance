@@ -92,9 +92,8 @@ const AddReviewForm = (props) => {
             Submit Review
           </button>
         </div>
-        <div>
-          <p id="result">{result}</p>
-        </div>
+
+        <p id="result">{result}</p>
       </form>
     </div>
   );

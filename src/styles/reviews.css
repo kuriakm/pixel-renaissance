@@ -1,4 +1,5 @@
 @import "styles.css";
+@import "addreview-form.css";
 
 #review-box {
   background: var(--box-color);
@@ -33,7 +34,13 @@
   position: absolute;
   color: var(--text-color);
   font-size: 20px;
+  left: -10px;
 }
+
+a {
+  padding: 10px;
+}
+
 #remove {
   position: absolute;
   color: var(--text-color);
@@ -45,4 +52,8 @@
   position: relative;
   text-align: right;
   bottom: -5px;
+}
+
+#result {
+  padding-top: 60px;
 }
