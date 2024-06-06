@@ -55,7 +55,7 @@ label {
 /* Button Box */
 #review-button-box {
   position: relative;
-  top: 50px;
+  top: 90px;
 }
 
 #btn-review {
@@ -69,7 +69,7 @@ label {
 
 /* Result */
 #result {
-  padding-top: 60px;
+  padding-top: 40px;
 }
 
 /* Review Form Title */
