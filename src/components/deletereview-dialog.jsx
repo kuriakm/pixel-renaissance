@@ -15,6 +15,9 @@ const DeleteDialog = (props) => {
     if (response.status === 200) {
       setResult("Review successfully deleted");
       props.hideReview();
+      setTimeout(function () {
+        setResult("");
+      }, 5000);
     } else {
       console.log(
         "There was an error deleting your review, please try again later."

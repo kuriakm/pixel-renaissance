@@ -36,6 +36,9 @@ const EditDialog = (props) => {
       setResult("Review successfully updated!");
       event.target.reset();
       props.editReview(await response.json());
+      setTimeout(function () {
+        setResult("");
+      }, 5000);
       props.closeDialog();
     } else {
       console.log("There was an error updating your review", response);

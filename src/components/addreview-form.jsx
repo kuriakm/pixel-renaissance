@@ -27,6 +27,9 @@ const AddReviewForm = (props) => {
       setResult("Review added successfully!");
       event.target.reset();
       props.addReview(await response.json());
+      setTimeout(function () {
+        setResult("");
+      }, 5000);
     } else {
       console.log("There was an error adding your review", response);
       setResult(response.message);
