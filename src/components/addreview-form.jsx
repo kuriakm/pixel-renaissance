@@ -35,7 +35,7 @@ const AddReviewForm = (props) => {
 
   return (
     <div id="review-form-box">
-      <h3>Add Review</h3>
+      <h3 id="addreview-title">Add Review</h3>
       <form id="review-form" onSubmit={onSubmit}>
         <div id="review-part">
           <label htmlFor="reviewer">Name: </label>
@@ -79,9 +79,7 @@ const AddReviewForm = (props) => {
             value={inputs.rating || ""}
             onChange={handleChange}
           >
-            <option value="5" selected>
-              5
-            </option>
+            <option value="5">5</option>
             <option value="4.5">4.5</option>
             <option value="4">4</option>
             <option value="3.5">3.5</option>
