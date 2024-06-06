@@ -89,9 +89,9 @@ const EditDialog = (props) => {
                 value={inputs.item || ""}
                 onChange={handleChange}
               >
-                <option value="stickers">Stickers</option>
-                <option value="mug">Mug</option>
-                <option value="pin">Pin</option>
+                <option value="Pixel Renaissance Stickers">Stickers</option>
+                <option value="Pixel Renaissance Mug">Mug</option>
+                <option value="Pixel Renaissance Pin">Pin</option>
               </select>
             </div>
             <div id="rating-dropdown">
