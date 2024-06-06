@@ -23,6 +23,10 @@ body {
   background: var(--background-color);
 }
 
+a {
+  padding: 10px;
+}
+
 /* Content Area */
 #information {
   margin: 0 auto;

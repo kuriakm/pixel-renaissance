@@ -40,8 +40,7 @@ const DeleteDialog = (props) => {
           </span>
           <div id="delete-content">
             <h3>
-              Are you sure you want to delete your review for {props.item},{" "}
-              {props.reviewer}?
+              Are you sure you want to delete your review for {props.item}?
             </h3>
             <section>
               <button onClick={deleteReview}>Yes</button>

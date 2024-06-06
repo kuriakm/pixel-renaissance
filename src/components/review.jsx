@@ -58,7 +58,6 @@ const Review = (props) => {
               closeDialog={closeDeleteDialog}
               hideReview={hideReview}
               _id={review._id}
-              reviewer={review.reviewer}
               item={review.item}
             />
           ) : (
@@ -70,13 +69,17 @@ const Review = (props) => {
             </div>
             <p>{review.content}</p>
             <div id="review-info">
-              <a href="#" id="edit" onClick={openEditDialog}>
-                &#9998;
-              </a>
+              <div>
+                <a href="#" id="edit" onClick={openEditDialog}>
+                  &#9998;
+                </a>
+              </div>
+              <div>
+                <a href="#" id="remove" onClick={openDeleteDialog}>
+                  &#x2715;
+                </a>
+              </div>
 
-              <a href="#" id="remove" onClick={openDeleteDialog}>
-                &#x2715;
-              </a>
               <p className="rating">{review.rating}/5</p>
             </div>
           </div>
