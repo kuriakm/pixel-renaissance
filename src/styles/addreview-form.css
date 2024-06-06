@@ -23,7 +23,7 @@ label {
 }
 
 #review-box textarea {
-  padding-bottom: 140px;
+  padding-bottom: 160px;
   font-size: 15px;
 }
 
@@ -74,6 +74,6 @@ label {
 
 /* Review Form Title */
 #addreview-title {
-  font-size: large;
+  font-size: x-large;
   padding-top: 10px;
 }
