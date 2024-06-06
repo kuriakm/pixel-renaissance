@@ -28,6 +28,7 @@
 
 #review-info {
   position: relative;
+  padding-top: 5px;
 }
 
 #edit {
@@ -35,6 +36,7 @@
   color: var(--text-color);
   font-size: 20px;
   left: -10px;
+  bottom: -12px;
 }
 
 a {
@@ -46,12 +48,13 @@ a {
   color: var(--text-color);
   left: 40px;
   font-size: 20px;
+  bottom: -12px;
 }
 
 .rating {
   position: relative;
   text-align: right;
-  bottom: -5px;
+  bottom: 0;
 }
 
 #result {
