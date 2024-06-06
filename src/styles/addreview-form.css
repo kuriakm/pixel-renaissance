@@ -1,14 +1,14 @@
 @import "styles.css";
 
 #review-form-box {
-  bottom: 10px;
+  bottom: -25px;
   position: relative;
 }
 
 /* Label */
 label {
   font-size: 18px;
-  font-weight: 550;
+  font-weight: 450;
 }
 
 /* Input */
