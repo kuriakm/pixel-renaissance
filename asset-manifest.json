@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/pixel-renaissance/static/css/main.676b1b65.css",
-    "main.js": "/pixel-renaissance/static/js/main.2270c22a.js",
+    "main.css": "/pixel-renaissance/static/css/main.4382577a.css",
+    "main.js": "/pixel-renaissance/static/js/main.dc12047f.js",
     "static/media/sticker-thumb.png": "/pixel-renaissance/static/media/sticker-thumb.212555b944b3b64ac490.png",
     "static/media/sticker-lg.png": "/pixel-renaissance/static/media/sticker-lg.066b5f0265ede374e00f.png",
     "static/media/logo-color.png": "/pixel-renaissance/static/media/logo-color.4b322c1661e714a1aad1.png",
@@ -16,11 +16,11 @@
     "static/media/instagram.svg": "/pixel-renaissance/static/media/instagram.fad01b69ec584ef2699e40a358fb0271.svg",
     "static/media/mastodon.svg": "/pixel-renaissance/static/media/mastodon.d7059a354ade0ea4b00e5f688f5bf5c9.svg",
     "index.html": "/pixel-renaissance/index.html",
-    "main.676b1b65.css.map": "/pixel-renaissance/static/css/main.676b1b65.css.map",
-    "main.2270c22a.js.map": "/pixel-renaissance/static/js/main.2270c22a.js.map"
+    "main.4382577a.css.map": "/pixel-renaissance/static/css/main.4382577a.css.map",
+    "main.dc12047f.js.map": "/pixel-renaissance/static/js/main.dc12047f.js.map"
   },
   "entrypoints": [
-    "static/css/main.676b1b65.css",
-    "static/js/main.2270c22a.js"
+    "static/css/main.4382577a.css",
+    "static/js/main.dc12047f.js"
   ]
 }
