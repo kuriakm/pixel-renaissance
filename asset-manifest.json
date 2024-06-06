@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/pixel-renaissance/static/css/main.30dfa238.css",
+    "main.css": "/pixel-renaissance/static/css/main.7482944f.css",
     "main.js": "/pixel-renaissance/static/js/main.0e87e6c7.js",
     "static/media/sticker-thumb.png": "/pixel-renaissance/static/media/sticker-thumb.212555b944b3b64ac490.png",
     "static/media/sticker-lg.png": "/pixel-renaissance/static/media/sticker-lg.066b5f0265ede374e00f.png",
@@ -16,11 +16,11 @@
     "static/media/instagram.svg": "/pixel-renaissance/static/media/instagram.fad01b69ec584ef2699e40a358fb0271.svg",
     "static/media/mastodon.svg": "/pixel-renaissance/static/media/mastodon.d7059a354ade0ea4b00e5f688f5bf5c9.svg",
     "index.html": "/pixel-renaissance/index.html",
-    "main.30dfa238.css.map": "/pixel-renaissance/static/css/main.30dfa238.css.map",
+    "main.7482944f.css.map": "/pixel-renaissance/static/css/main.7482944f.css.map",
     "main.0e87e6c7.js.map": "/pixel-renaissance/static/js/main.0e87e6c7.js.map"
   },
   "entrypoints": [
-    "static/css/main.30dfa238.css",
+    "static/css/main.7482944f.css",
     "static/js/main.0e87e6c7.js"
   ]
 }
