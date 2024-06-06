@@ -13,7 +13,10 @@ const ReviewBox = () => {
 
   useEffect(() => {
     (async () => {
-      const response = await axios.get("http://localhost:3001/api/reviews");
+      /* TODO: Change to formal server link */
+      const response = await axios.get(
+        "https://pixel-renaissance-server.onrender.com/api/reviews"
+      );
       setAllReviews(response.data);
     })();
   }, []);
@@ -22,7 +25,7 @@ const ReviewBox = () => {
     <aside id="review-box" className="one">
       <div id="review-container">
         {allReviews.map((review) => {
-          if (review.item === "stickers") {
+          if (review.item === "Pixel Renaissance Stickers") {
             return (
               <Review
                 key={review._id}

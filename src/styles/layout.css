@@ -9,8 +9,8 @@
   background: var(--box-color);
   border: 1.5px solid var(--text-color);
   box-shadow: -2.5px 2.5px var(--text-color);
-  padding: 5px;
   margin: 10px;
+  font-weight: 500;
 }
 
 #main-nav a {
@@ -80,7 +80,7 @@
 
 #toggle div {
   width: 35px;
-  height: 2px;
+  height: 2.5px;
   background: var(--text-color);
   margin: 7px 0;
   margin-left: auto;

@@ -15,10 +15,14 @@ const AddReviewForm = (props) => {
     event.preventDefault();
     setResult("Adding review...");
     const formData = new FormData(event.target);
-    const response = await fetch("http://localhost:3001/api/reviews", {
-      method: "POST",
-      body: formData,
-    });
+    /* TODO: Change to formal server link */
+    const response = await fetch(
+      "https://pixel-renaissance-server.onrender.com/api/reviews",
+      {
+        method: "POST",
+        body: formData,
+      }
+    );
     if (response.status === 200) {
       setResult("Review added successfully!");
       event.target.reset();
@@ -63,9 +67,9 @@ const AddReviewForm = (props) => {
         <div id="product-dropdown">
           <label htmlFor="item">Product: </label>
           <select name="item" value={inputs.item || ""} onChange={handleChange}>
-            <option value="stickers">Stickers</option>
-            <option value="mug">Mug</option>
-            <option value="pin">Pin</option>
+            <option value="Pixel Renaissance Stickers">Stickers</option>
+            <option value="Pixel Renaissance Mug">Mug</option>
+            <option value="Pixel Renaissance Pin">Pin</option>
           </select>
         </div>
         <div id="rating-dropdown">

@@ -1,7 +1,6 @@
-import "../styles/edit-dialog.css";
+import "../styles/dialog.css";
 import React, { useState } from "react";
 
-/* TODO: Finish edit dialog */
 const EditDialog = (props) => {
   const [inputs, setInputs] = useState({
     _id: props._id,
@@ -24,8 +23,9 @@ const EditDialog = (props) => {
     setResult("Editing review...");
     const formData = new FormData(event.target);
 
+    /* TODO: Change to formal server link */
     const response = await fetch(
-      `http://localhost:3001/api/reviews/${props._id}`,
+      `https://pixel-renaissance-server.onrender.com/api/reviews/${props._id}`,
       {
         method: "PUT",
         body: formData,
