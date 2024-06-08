@@ -17,7 +17,7 @@ const AddReviewForm = (props) => {
     const formData = new FormData(event.target);
     /* TODO: Change to formal server link */
     const response = await fetch(
-      "https://pixel-renaissance-server.onrender.com/api/reviews",
+      "https://pixel-renaissance-mongodb.onrender.com/api/reviews",
       {
         method: "POST",
         body: formData,

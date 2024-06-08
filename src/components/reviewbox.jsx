@@ -15,7 +15,7 @@ const ReviewBox = () => {
     (async () => {
       /* TODO: Change to formal server link */
       const response = await axios.get(
-        "https://pixel-renaissance-server.onrender.com/api/reviews"
+        "https://pixel-renaissance-mongodb.onrender.com/api/reviews"
       );
       setAllReviews(response.data);
     })();

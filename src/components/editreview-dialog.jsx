@@ -25,7 +25,7 @@ const EditDialog = (props) => {
 
     /* TODO: Change to formal server link */
     const response = await fetch(
-      `https://pixel-renaissance-server.onrender.com/api/reviews/${props._id}`,
+      `https://pixel-renaissance-mongodb.onrender.com/api/reviews/${props._id}`,
       {
         method: "PUT",
         body: formData,
