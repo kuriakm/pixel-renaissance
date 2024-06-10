@@ -23,8 +23,9 @@ const EditDialog = (props) => {
     setResult("Editing review...");
     const formData = new FormData(event.target);
 
+    /* TODO: Change to formal server link */
     const response = await fetch(
-      `https://pixel-renaissance-mongodb.onrender.com/api/reviews/${props._id}`,
+      `https://pixel-renaissance-server.onrender.com/api/reviews/${props._id}`,
       {
         method: "PUT",
         body: formData,
@@ -40,8 +41,9 @@ const EditDialog = (props) => {
       }, 5000);
       props.closeDialog();
     } else {
-      console.log("There was an error updating your review", response);
-      setResult(response.message);
+      setResult(
+        "There was an error updating your review, please try again later."
+      );
     }
   };
 

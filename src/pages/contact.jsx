@@ -21,11 +21,12 @@ const Contact = () => {
     const data = await response.json();
 
     if (data.success) {
-      setResult("Form Submitted Successfully");
+      setResult("Your message was sent successfully!");
       event.target.reset();
     } else {
-      console.log("Error", data);
-      setResult(data.message);
+      setResult(
+        "Sorry, there was an error when submitting your review. Please try again later."
+      );
     }
   };
 

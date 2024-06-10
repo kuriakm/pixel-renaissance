@@ -19,10 +19,9 @@ const DeleteDialog = (props) => {
         setResult("");
       }, 5000);
     } else {
-      console.log(
+      setResult(
         "There was an error deleting your review, please try again later."
       );
-      setResult(response.message);
     }
     props.closeDialog();
   };
