@@ -9,7 +9,7 @@ const Blog = () => {
   useEffect(() => {
     (async () => {
       const response = await axios.get(
-        "https://pixel-renaissance-server.onrender.com/api/posts"
+        "https://pixel-renaissance-mongodb.onrender.com/api/posts"
       );
       setBlogPosts(response.data);
     })();

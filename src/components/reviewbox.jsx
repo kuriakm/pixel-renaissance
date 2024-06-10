@@ -13,7 +13,6 @@ const ReviewBox = () => {
 
   useEffect(() => {
     (async () => {
-      /* TODO: Change to formal server link */
       const response = await axios.get(
         "https://pixel-renaissance-mongodb.onrender.com/api/reviews"
       );

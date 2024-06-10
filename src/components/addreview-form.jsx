@@ -15,7 +15,7 @@ const AddReviewForm = (props) => {
     event.preventDefault();
     setResult("Adding review...");
     const formData = new FormData(event.target);
-    /* TODO: Change to formal server link */
+
     const response = await fetch(
       "https://pixel-renaissance-mongodb.onrender.com/api/reviews",
       {

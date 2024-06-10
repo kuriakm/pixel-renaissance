@@ -3,7 +3,6 @@ import "../styles/reviews.css";
 import EditDialog from "./editreview-dialog";
 import DeleteDialog from "./deletereview-dialog";
 
-/* TODO: Finish edit dialog */
 const Review = (props) => {
   const [showEditDialog, setShowEditDialog] = useState(false);
   const [showDeleteDialog, setShowDeleteDialog] = useState(false);

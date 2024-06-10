@@ -7,7 +7,6 @@ import pin from "../images/store/pin-thumb.png";
 const StoreFeatured = () => {
   return (
     <div id="store-featured" className="columns wrap three">
-      {/* TODO: Add link to sticker (store-item.jsx) */}
       <section id="store-items" className="one">
         <img src={sticker} alt="Sticker with Pixel Renaissance logo on it" />
         <h3>Pixel Renaissance Stickers</h3>

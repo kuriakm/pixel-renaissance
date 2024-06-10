@@ -1,6 +1,5 @@
 import StoreFeatured from "../components/store-featured";
 import "../styles/store.css";
-/* TODO: Fix storepage view */
 
 const Store = () => {
   return (

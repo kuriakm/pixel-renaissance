@@ -11,7 +11,7 @@ const Post = () => {
   useEffect(() => {
     (async () => {
       const response = await axios.get(
-        "https://pixel-renaissance-server.onrender.com/api/posts/"
+        "https://pixel-renaissance-mongodb.onrender.com/api/posts/"
       );
       setBlogPosts(response.data);
     })();
@@ -46,7 +46,7 @@ const Post = () => {
       );
     };
 
-    const thumbnail = `https://pixel-renaissance-server.onrender.com/images/posts/${post.thumbnail.name}`;
+    const thumbnail = `https://pixel-renaissance-mongodb.onrender.com/images/posts/${post.thumbnail.name}`;
 
     return (
       <main id="main-content" className="columns">
