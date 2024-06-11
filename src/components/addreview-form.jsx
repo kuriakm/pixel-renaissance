@@ -16,14 +16,12 @@ const AddReviewForm = (props) => {
     const value = event.target.files[0];
     setInputs((values) => ({ ...values, [name]: value }));
   };
-
-  /* Add change to api here */
+  
   const onSubmit = async (event) => {
     event.preventDefault();
     setResult("Adding review...");
     const formData = new FormData(event.target);
 
-    /* TODO: Change to formal server link */
     const response = await fetch(
       "https://pixel-renaissance-server.onrender.com/api/reviews",
       {

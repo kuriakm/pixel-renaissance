@@ -30,7 +30,6 @@ const EditDialog = (props) => {
     setResult("Editing review...");
     const formData = new FormData(event.target);
 
-    /* TODO: Change to formal server link */
     const response = await fetch(
       `https://pixel-renaissance-server.onrender.com/api/reviews/${props._id}`,
       {
