@@ -24,10 +24,10 @@
 }
 
 #img-prev {
-  max-width: 100px;
+  max-width: 120px;
   object-fit: cover;
   text-align: right;
-  max-height: 90px;
+  max-height: 120px;
   padding-left: 10px;
 }
 
@@ -36,10 +36,7 @@
 }
 
 #edit-dialog #img-prev {
-  /*   position: absolute;
-  left: 300px;
-  bottom: -0px; */
-  max-height: 90px;
+  max-height: 120px;
 }
 
 #delete-dialog button {
@@ -61,8 +58,10 @@
 }
 
 #edit-dialog #review-button-box {
+  top: 30px;
   text-align: center;
 }
+
 
 /* Modal Typography */
 #delete-content h3 {
@@ -97,6 +96,7 @@
 .w3-panel {
   padding: 0.01em 16px;
 }
+
 .w3-panel {
   margin-top: 16px;
   margin-bottom: 16px;
@@ -132,6 +132,7 @@
   cursor: pointer;
   white-space: nowrap;
 }
+
 .w3-btn:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -145,12 +146,14 @@
   -ms-user-select: none;
   user-select: none;
 }
+
 .w3-disabled,
 .w3-btn:disabled,
 .w3-button:disabled {
   cursor: not-allowed;
   opacity: 0.3;
 }
+
 .w3-disabled *,
 :disabled * {
   pointer-events: none;
@@ -161,11 +164,12 @@
   background-color: #ccc !important;
 }
 
-.w3-dropdown-hover:hover > .w3-button:first-child,
-.w3-dropdown-click:hover > .w3-button:first-child {
+.w3-dropdown-hover:hover>.w3-button:first-child,
+.w3-dropdown-click:hover>.w3-button:first-child {
   background-color: #ccc;
   color: #000;
 }
+
 .w3-display-topright {
   position: absolute;
   right: 0;
@@ -177,6 +181,7 @@
     margin: 0 10px;
     width: auto !important;
   }
+
   .w3-modal {
     padding-top: 30px;
   }
@@ -186,10 +191,12 @@
   .w3-modal-content {
     width: 500px;
   }
+
   .w3-modal {
     padding-top: 50px;
   }
 }
+
 @media (min-width: 993px) {
   .w3-modal-content {
     width: 900px;
