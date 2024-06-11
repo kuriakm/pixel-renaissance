@@ -33,6 +33,8 @@ const Review = (props) => {
     setShowReview(false);
   };
 
+  const imageSrc = `https://pixel-renaissance-server.onrender.com/${review.image}`;
+
   return (
     <>
       {showReview ? (
@@ -43,6 +45,7 @@ const Review = (props) => {
               editReview={editReview}
               key={review._id}
               _id={review._id}
+              image={review.image}
               reviewer={review.reviewer}
               content={review.content}
               item={review.item}
@@ -64,19 +67,24 @@ const Review = (props) => {
           )}
           <div className="reviews">
             <div className="review-head">
+              <img
+                id="review-pic"
+                src={imageSrc}
+                alt={`${review.reviewer}'s Profile Icon`}
+              />
               <h4>{review.reviewer}</h4>
             </div>
             <p>{review.content}</p>
             <div id="review-info">
               <div>
-                <a href="#" id="edit" onClick={openEditDialog}>
+                <button id="edit" onClick={openEditDialog}>
                   &#9998;
-                </a>
+                </button>
               </div>
               <div>
-                <a href="#" id="remove" onClick={openDeleteDialog}>
+                <button id="remove" onClick={openDeleteDialog}>
                   &#x2715;
-                </a>
+                </button>
               </div>
 
               <p className="rating">{review.rating}/5</p>

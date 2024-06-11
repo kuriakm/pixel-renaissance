@@ -14,7 +14,7 @@ const ReviewBox = () => {
   useEffect(() => {
     (async () => {
       const response = await axios.get(
-        "https://pixel-renaissance-mongodb.onrender.com/api/reviews"
+        "https://pixel-renaissance-server.onrender.com/api/reviews"
       );
       setAllReviews(response.data);
     })();
@@ -29,6 +29,7 @@ const ReviewBox = () => {
               <Review
                 key={review._id}
                 _id={review._id}
+                image={review.image}
                 reviewer={review.reviewer}
                 content={review.content}
                 rating={review.rating}

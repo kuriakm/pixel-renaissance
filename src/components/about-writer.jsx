@@ -24,10 +24,6 @@ const AboutWriter = () => {
           Musashi on the PS1, which cemented his interest in video games and the
           themes/motifs they entail.
         </p>
-        {/*      <p>
-          Marshall lives with his two cats, Makku and Chinnu, and enjoys drawing
-          and coding in his free time.
-        </p> */}
         <section className="attribute">
           <p>
             Image by{" "}

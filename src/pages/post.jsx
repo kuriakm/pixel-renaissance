@@ -46,7 +46,7 @@ const Post = () => {
       );
     };
 
-    const thumbnail = `https://pixel-renaissance-mongodb.onrender.com/images/posts/${post.thumbnail.name}`;
+    const thumbnail = `https://pixel-renaissance-server.onrender.com/images/posts/${post.thumbnail.name}`;
 
     return (
       <main id="main-content" className="columns">

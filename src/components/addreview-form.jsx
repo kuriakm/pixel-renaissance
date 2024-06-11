@@ -1,5 +1,6 @@
 import "../styles/addreview-form.css";
 import React, { useState } from "react";
+
 const AddReviewForm = (props) => {
   const [inputs, setInputs] = useState({});
   const [result, setResult] = useState("");
@@ -10,29 +11,37 @@ const AddReviewForm = (props) => {
     setInputs((values) => ({ ...values, [name]: value }));
   };
 
+  const handleImageChange = (event) => {
+    const name = event.target.name;
+    const value = event.target.files[0];
+    setInputs((values) => ({ ...values, [name]: value }));
+  };
+
   /* Add change to api here */
   const onSubmit = async (event) => {
     event.preventDefault();
     setResult("Adding review...");
     const formData = new FormData(event.target);
 
+    /* TODO: Change to formal server link */
     const response = await fetch(
-      "https://pixel-renaissance-mongodb.onrender.com/api/reviews",
+      "https://pixel-renaissance-server.onrender.com/api/reviews",
       {
         method: "POST",
         body: formData,
       }
     );
     if (response.status === 200) {
-      setResult("Review added successfully!");
       event.target.reset();
+      setInputs({});
+      setResult("Review added successfully!");
       props.addReview(await response.json());
       setTimeout(function () {
         setResult("");
       }, 5000);
     } else {
-      console.log("There was an error adding your review", response);
-      setResult(response.message);
+      console.log(response);
+      setResult("There was an error adding your review", response.message);
     }
   };
 
@@ -41,6 +50,27 @@ const AddReviewForm = (props) => {
       <h3 id="addreview-title">Add Review</h3>
       <form id="review-form" onSubmit={onSubmit}>
         <div id="review-part">
+          <section className="columns">
+            <p id="img-upload">
+              <label htmlFor="image">Upload Profile Picture: </label>
+              <input
+                type="file"
+                id="image"
+                name="image"
+                onChange={handleImageChange}
+                accept="image/*"
+              />
+            </p>
+            <p id="img-prev-section">
+              <img
+                id="img-prev"
+                src={
+                  inputs.image != null ? URL.createObjectURL(inputs.image) : ""
+                }
+                alt=""
+              />
+            </p>
+          </section>
           <label htmlFor="reviewer">Name: </label>
           <input
             type="text"

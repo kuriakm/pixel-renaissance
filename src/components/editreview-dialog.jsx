@@ -8,11 +8,18 @@ const EditDialog = (props) => {
     content: props.content,
     rating: props.rating,
     item: props.item,
+    prev_image: props.image,
   });
 
   const handleChange = (event) => {
     const name = event.target.name;
     const value = event.target.value;
+    setInputs((values) => ({ ...values, [name]: value }));
+  };
+
+  const handleImageChange = (event) => {
+    const name = event.target.name;
+    const value = event.target.files[0];
     setInputs((values) => ({ ...values, [name]: value }));
   };
 
@@ -41,6 +48,7 @@ const EditDialog = (props) => {
       }, 5000);
       props.closeDialog();
     } else {
+      console.log(response);
       setResult(
         "There was an error updating your review, please try again later."
       );
@@ -59,6 +67,33 @@ const EditDialog = (props) => {
             &times;
           </span>
           <form id="edit-review-form" onSubmit={onSubmit}>
+            <div id="review-part">
+              <section className="columns">
+                <p id="img-upload">
+                  <label htmlFor="image">Upload Profile Picture: </label>
+                  <input
+                    type="file"
+                    id="image"
+                    name="image"
+                    onChange={handleImageChange}
+                    accept="image/*"
+                  />
+                </p>
+                <p id="img-prev-section">
+                  <img
+                    id="img-prev"
+                    src={
+                      inputs.image != null
+                        ? URL.createObjectURL(inputs.image)
+                        : inputs.prev_image != null
+                        ? `https://pixel-renaissance-server.onrender.com/${inputs.prev_image}`
+                        : ""
+                    }
+                    alt=""
+                  />
+                </p>
+              </section>
+            </div>
             <div id="review-part">
               <label htmlFor="reviewer">Name: </label>
               <input
@@ -114,7 +149,6 @@ const EditDialog = (props) => {
                 <option value="5">5</option>
               </select>
             </div>
-
             <div id="review-button-box">
               <button type="submit" id="btn-review">
                 Submit Review

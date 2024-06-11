@@ -28,7 +28,7 @@ label {
 }
 
 #review-box textarea {
-  padding-bottom: 95px;
+  padding-bottom: 75px;
   font-size: 15px;
 }
 
@@ -60,7 +60,7 @@ label {
 /* Button Box */
 #review-button-box {
   position: relative;
-  top: 90px;
+  top: 50px;
 }
 
 #btn-review {
@@ -74,7 +74,7 @@ label {
 
 /* Result */
 #result {
-  padding-top: 80px;
+  padding-top: 25px;
 }
 
 /* Review Form Title */

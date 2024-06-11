@@ -2,7 +2,7 @@
 
 #edit-review-form {
   padding: 20px;
-  padding-top: 50px;
+  /*   padding-top: 90px; */
 }
 
 #dialog-section {
@@ -19,8 +19,27 @@
   margin-bottom: 10px;
 }
 
+#img-prev-section {
+  max-width: 200px;
+}
+
 #img-prev {
-  max-width: 100%;
+  max-width: 100px;
+  object-fit: cover;
+  text-align: right;
+  max-height: 90px;
+  padding-left: 10px;
+}
+
+#edit-dialog #img-prev-section {
+  position: relative;
+}
+
+#edit-dialog #img-prev {
+  /*   position: absolute;
+  left: 300px;
+  bottom: -0px; */
+  max-height: 90px;
 }
 
 #delete-dialog button {
@@ -176,17 +195,3 @@
     width: 900px;
   }
 }
-
-/* @media only screen and (min-width: 600px) {
-  #img-prev-section {
-    flex: 1;
-  }
-
-  #img-prev {
-    max-width: 100%;
-  }
-
-  #img-upload {
-    flex: 6;
-  }
-} */
